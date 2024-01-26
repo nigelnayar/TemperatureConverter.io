@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.tempat {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+.tempat2 {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+body {
+  background-image: repeating-linear-gradient(to bottom, #063970, #76b5c5);
+  overflow: y;
+}
+.ha2 {
+  font-family: "Bebas Neue",sans-serif;
+}
+#swap {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container {
+  background-color: white;
+  width: 470px;
+  height: 360px;
+  padding: 70px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 22.5px;
+  font-family: "Yantramanav",sans-serif;
+
+}
+
+.heading {
+  text-align: center;
+  font-size: 2.8rem;
+}
+
+.rate {
+  margin-top: -1.5rem;
+}
+.rate1 {
+
+}
+
+.rate2 {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.main {
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.swap {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.option select {
+  padding: 2%;
+  width: 100px;
+  border-radius: 5px;
+
+}
+
+.input input {
+  all: unset;
+  display: inline-block;
+  margin-top: 1rem;
+  width: 175px;
+  height: 48px;
+  padding: 5px;
+  background-color: #ebebeb;
+  color: black;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  border-radius: 45px;
+  appearance: textfield;
+}
+
+.output {
+  all: unset;
+  padding: 5px;
+  transform: translateX(-5%);
+}
+
+.result {
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  color: white;
+  background-color: #063970;
+  border: none;
+  outline: none;
+  border-radius: 45px;
+  font-size: 2.8rem;
+  font-family: "Bebas Neue",sans-serif;
+  transition: 0.5s;
+
+}
+.result:hover {
+  text-align: center;
+  width: 105%;
+  height: 63px;
+}
+
+.box div{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: 6px solid rgba(255, 255, 255, 0);
+    z-index: -1;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.box div:nth-child(1){
+  top: 32%;
+  left: 80%;
+  animation: animate 10s linear infinite;
+}
+.box div:nth-child(2){
+  top: 32%;
+  left: 22%;
+  animation: animate 9s linear infinite;
+}
+.box div:nth-child(3){
+  top: 23%;
+  left: 80%;
+  animation: animate 15s linear infinite;
+}
+.box div:nth-child(4){
+  top: 67%;
+  left: 10%;
+  animation: animate 12s linear infinite;
+}
+.box div:nth-child(5){
+  top: 23%;
+  left: 6%;
+  animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(6){
+  top: 70%;
+  left: 50%;
+  animation: animate 7s linear infinite;
+}
+
+.box div:nth-child(7){
+  top: 11%;
+  left: 40%;
+  animation: animate 13s linear infinite;
+}
+
+.box div:nth-child(8){
+  top: 60%;
+  left: 80%;
+  animation: animate 19s linear infinite;
+}
+
+.rumus {
+  background-color: white;
+  width: 470px;
+  height: 135px;
+  padding: 70px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 22.5px;
+  font-family: "Yantramanav",sans-serif;
+
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0) translateY(0) rotate(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(0.2) translateY(-90px) rotate(360deg);
+    opacity: 1;
+  }
+}
